@@ -78,12 +78,11 @@ namespace AlbumsTS
             //    MessageBox.Show("No se pudo cargar la imagen: " + ex.Message);
             //    pctboxTS.Image = null;
             //}
-
             try
             {
-                using (WebClient client = new WebClient())
+                using (HttpClient client = new HttpClient())  // Usamos HttpClient en lugar de WebClient
                 {
-                    byte[] imageBytes = client.DownloadData(url);
+                    byte[] imageBytes = await client.GetByteArrayAsync(url);  // Método asincrónico para descargar los datos
                     using (var ms = new MemoryStream(imageBytes))
                     {
                         pctboxTS.Image = Image.FromStream(ms);
