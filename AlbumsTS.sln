@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumsTS", "AlbumsTS\AlbumsTS.csproj", "{C3C6A249-1CD8-4691-81A2-71B90B81CBBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3C6A249-1CD8-4691-81A2-71B90B81CBBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C6A249-1CD8-4691-81A2-71B90B81CBBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C6A249-1CD8-4691-81A2-71B90B81CBBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C6A249-1CD8-4691-81A2-71B90B81CBBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B9E4359-34D9-4DDA-BDD7-48DFEDD652B5}
+	EndGlobalSection
+EndGlobal
